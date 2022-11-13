@@ -1,0 +1,35 @@
+{
+  "name": "stankerstjens.github.io",
+  "version": "1.0.0",
+  "description": "My personal webpage.",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stankerstjens/stankerstjens.github.io.git"
+  },
+  "keywords": [
+    "Stan",
+    "Kerstjens"
+  ],
+  "author": "Stan Kerstjens",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stankerstjens/stankerstjens.github.io/issues"
+  },
+  "homepage": "https://github.com/stankerstjens/stankerstjens.github.io#readme",
+  "devDependencies": {
+    "css-loader": "^6.7.2",
+    "css-minimizer-webpack-plugin": "^4.2.2",
+    "favicons": "^7.0.2",
+    "favicons-webpack-plugin": "^6.0.0-alpha.2",
+    "html-webpack-plugin": "^5.5.0",
+    "mini-css-extract-plugin": "^2.6.1",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.75.0",
+    "webpack-cli": "^4.10.0"
+  }
+}
