@@ -1,0 +1,31 @@
+
+* {
+    font-family: Optima, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: normal;
+    text-align: center;
+}
+
+body {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+.headshot {
+    background-image: url("../img/headshot-stan-very-small.png");
+    background-size: cover;
+    max-width: 100%;
+    max-height: 200px;
+    clip-path: circle(181px at center);
+    transition: clip-path 1s;
+}
+
+@media (min-width: 300px) {
+    .headshot {
+        clip-path: circle(90px at center);
+        transition: clip-path 1s;
+    }
+}

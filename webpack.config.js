@@ -33,6 +33,9 @@ module.exports = {
         rules: [{
             test: /.css$/i,
             use: [MiniCssExtractPlugin.loader, 'css-loader'],
+        },{
+            test: /.(png|jpe?g)$/i,
+            type: 'asset/resource',
         }]
     },
 
